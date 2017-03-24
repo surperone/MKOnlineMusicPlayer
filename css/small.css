@@ -1,9 +1,9 @@
 @charset "utf-8";
 /**************************************************
- * MKOnlinePlayer v2.0
+ * MKOnlinePlayer v2.1
  * 小屏幕样式修复
  * 编写：mengkun(http://mkblog.cn)
- * 时间：2017-3-16
+ * 时间：2017-3-24
  *************************************************/
 
 /* 小于 900px 采用这个样式 */
@@ -18,9 +18,6 @@
 }
 .btn {
     padding: 6px 8px;
-}
-.btn:hover {
-    border: none;
 }
 .btn-bar {
     right: 0;
@@ -113,6 +110,9 @@
         text-align: center;
         line-height: 35px;
         color: #6A6969;
+    }
+    .btn:hover {
+        border: none;
     }
     .center {
         bottom: 60px;
